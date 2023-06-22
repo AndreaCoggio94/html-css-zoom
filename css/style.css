@@ -90,9 +90,18 @@
 
 .button-bar-call {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  align-items: center;
+  justify-content: left;
+  text-align: center;
+  gap: 15px;
+  font-size: 0.85rem;
+  color: var(--white);
+  padding: 5px;
 }
+
+/* .button-bar-call > div {
+  height: 60px;
+} */
 
 /* # debug */
 
