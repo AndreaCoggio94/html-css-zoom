@@ -9,6 +9,7 @@
   --purple: #800080;
   --pink: #ffc0cb;
   --gray: #4a4a4a;
+  --dark-gray: #222222;
 }
 
 /* # reset */
@@ -84,6 +85,13 @@
   display: flex;
   justify-content: space-between;
   height: 60px;
+  background-color: var(--dark-gray);
+}
+
+.button-bar-call {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 /* # debug */
