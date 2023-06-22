@@ -8,6 +8,7 @@
   --cyan: #00ffff;
   --purple: #800080;
   --pink: #ffc0cb;
+  --gray: #4a4a4a;
 }
 
 /* # reset */
@@ -23,13 +24,21 @@
 /* # header */
 
 .view-mode {
-  text-align: right;
   height: 20px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
 }
 
 .view-mode > span {
-  display: inline-block;
   height: 20px;
+  line-height: 20px;
+  margin: 0 5px;
+  font-size: 0.75rem;
+  padding: 0 5px;
+  color: var(--white);
+  background-color: var(--gray);
+  border-radius: 5px;
 }
 
 /* # main */
