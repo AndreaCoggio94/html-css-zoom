@@ -22,6 +22,10 @@
 
 /* # utils */
 
+.bg-black {
+  background-color: var(--black);
+}
+
 /* # header */
 
 .view-mode {
@@ -106,52 +110,4 @@ footer {
   text-align: center;
   line-height: 60px;
   padding: 0 10px;
-}
-
-/* # debug */
-
-/* width */
-
-.debug .col-20 {
-  width: 20%;
-}
-
-.debug .col-14 {
-  width: 14%;
-}
-
-/* height */
-
-.debug .smaller {
-  height: 40px;
-}
-
-.debug .small {
-  height: 80px;
-}
-
-/* background color */
-
-.debug .bg-cyan {
-  background-color: var(--cyan);
-}
-
-.debug .bg-pink {
-  background-color: var(--pink);
-}
-
-.debug .bg-purple {
-  background-color: var(--purple);
-}
-
-.debug .bg-green {
-  background-color: var(--green);
-}
-
-.debug .bg-black {
-  background-color: var(--black);
-}
-
-.debug .bg-white {
-  background-color: var(--white);
 }
