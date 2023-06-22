@@ -41,8 +41,13 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  overflow: auto;
 }
 
+.zoom-card {
+  height: 14vh;
+  margin: 5px 0;
+}
 /* # footer */
 
 .button-bar {
