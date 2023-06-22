@@ -81,27 +81,32 @@
 }
 /* # footer */
 
-.button-bar {
+footer {
   display: flex;
   justify-content: space-between;
   height: 60px;
   background-color: var(--dark-gray);
 }
 
-.button-bar-call {
+.button-bar {
   display: flex;
   align-items: center;
   justify-content: left;
   text-align: center;
+  flex-direction: row;
   gap: 15px;
   font-size: 0.85rem;
   color: var(--white);
   padding: 5px;
 }
 
-/* .button-bar-call > div {
-  height: 60px;
-} */
+.end-call {
+  color: var(--red);
+  background-color: var(--gray);
+  text-align: center;
+  line-height: 60px;
+  padding: 0 10px;
+}
 
 /* # debug */
 
