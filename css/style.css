@@ -60,15 +60,16 @@
 .zoom-call {
   height: calc(100vh - 80px);
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   flex-wrap: wrap;
   overflow: auto;
   padding: 10px 0;
+  gap: 1%;
 }
 
 .zoom-card {
-  height: 14vh;
-  width: 13%;
+  height: 100px;
+  width: 160px;
   position: relative;
 }
 
@@ -99,7 +100,7 @@ footer {
 .button-bar {
   display: flex;
   align-items: center;
-  justify-content: left;
+  justify-content: flex-start;
   text-align: center;
   flex-direction: row;
   gap: 15px;
