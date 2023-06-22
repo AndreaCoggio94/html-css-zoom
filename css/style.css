@@ -1,0 +1,61 @@
+:root {
+  /* # color palette */
+
+  --black: #000000;
+  --white: #ffffff;
+  --green: #4bc800;
+  --red: #d42105;
+  --cyan: #00ffff;
+  --purple: #800080;
+  --pink: #ffc0cb;
+}
+
+/* # reset */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* # header */
+
+.view-mode > span {
+  display: inline-block;
+}
+
+/* # debug */
+
+/* width */
+
+.col-20 {
+  width: 20%;
+}
+
+/* height */
+
+.smaller {
+  height: 40px;
+}
+
+.small {
+  height: 80px;
+}
+
+/* background color */
+
+.debug .bg-cyan {
+  background-color: var(--cyan);
+}
+
+.debug .bg-pink {
+  background-color: var(--pink);
+}
+
+.debug .bg-purple {
+  background-color: var(--purple);
+}
+
+.debug .bg-green {
+  background-color: var(--green);
+}
