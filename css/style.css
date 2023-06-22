@@ -18,6 +18,8 @@
   padding: 0;
 }
 
+/* # utils */
+
 /* # header */
 
 .view-mode {
@@ -48,8 +50,24 @@
 
 .zoom-card {
   height: 100px;
-  /* margin: 2px 0; */
   width: 160px;
+  position: relative;
+}
+
+.zoom-card > img {
+  width: 100%;
+}
+
+.zoom-username {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: inline-block;
+  z-index: 1;
+  font-size: 0.75rem;
+  color: var(--white);
+  background-color: rgba(128, 128, 128, 0.6);
+  padding: 2px;
 }
 /* # footer */
 
